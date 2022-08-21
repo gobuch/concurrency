@@ -1,8 +1,8 @@
 # Concurrency in Go
 
-Beispiele aus dem Kurs sind hier direkt über den Go-Playground verlinkt.
+Einige Beispiele aus dem Kurs sind direkt über den Go-Playground ausführbar. 
 
-## Codebeispiele
+## Codebeispiele zu den Grundlagen
 
 * [Was ist Concurrency?](https://go.dev/play/p/CNKC-l03q_d)
 * [Starten von Goroutinen](https://go.dev/play/p/oXomJxlFWsi)
@@ -23,5 +23,22 @@ Beispiele aus dem Kurs sind hier direkt über den Go-Playground verlinkt.
 * [Atomic](https://go.dev/play/p/-pZJt8An7uw)
 
 
+## Codebeispiele zu den Patterns
 
-## Patterns
+* Synchronisierung von Goroutinen
+    * [Done-Channel](https://go.dev/play/p/ga6UdIL2zEk)
+    * [Msg-Channel](https://go.dev/play/p/jAwsQ2mjG0w)
+    * [Waitgroup 1](https://go.dev/play/p/JdDvRRLLGo9)
+    * [Waitgroup 2](https://go.dev/play/p/AdhcJ4YRXmk)
+* Beenden von Goroutinen
+    * [Loop 1](https://go.dev/play/p/0y0Ambr1CvB)
+    * [Loop 2](https://go.dev/play/p/2EplVP806zF)
+    * [Select](https://go.dev/play/p/QCHcHWifymg)
+* [Steuerung der Goroutinen mit context](https://go.dev/play/p/Ts7Mih0zZfJ)
+* [Erzeugen von Daten mit einem Generator](https://go.dev/play/p/dfL1-PDzh82)
+* [Pipeline mit Channels](https://go.dev/play/p/w9OjB_6uDq-)
+* [Verteilung von Daten mit fanout](https://go.dev/play/p/TKGX3Y81a_B)
+* [Zusammenfürhung von Daten mit fanin](https://go.dev/play/p/AQUb1dkg5K1)
+* [Channel of Channels](https://go.dev/play/p/zYPyczxtxms)
+* [Goroutine als Worker](https://go.dev/play/p/3_mL9rXRHN_4)
+* [Koordiantion mit Semaphore](https://go.dev/play/p/HaWb6AJvyR1)
